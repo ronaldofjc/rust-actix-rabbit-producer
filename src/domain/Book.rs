@@ -12,19 +12,19 @@ pub struct Book {
 impl Book {
     pub fn domain_to_event(&self) -> CreatedBookEvent {
         CreatedBookEvent {
-            id: self.id.clone(),
-            title: self.title.clone(),
-            author: self.author.clone(),
-            pages: self.pages.clone()
+            id: self.id.to_owned(),
+            title: self.title.to_owned(),
+            author: self.author.to_owned(),
+            pages: self.pages.to_owned()
         }
     }
 
     pub fn domain_to_response(&self) -> BookResponse {
         BookResponse {
-            id: self.id.clone(),
-            title: self.title.clone(),
-            author: self.author.clone(),
-            pages: self.pages.clone()
+            id: self.id.to_owned(),
+            title: self.title.to_owned(),
+            author: self.author.to_owned(),
+            pages: self.pages.to_owned()
         }
     }
 }
