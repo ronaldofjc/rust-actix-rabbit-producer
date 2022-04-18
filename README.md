@@ -1,4 +1,4 @@
-# API Rest with Rust and Actix Web
+# Sample RabbitMq Producer
 This project presents a way to use RabbitMq as a message producer with Rust and Actix Web
 
 Technologies used: Rust, Actix Web, Serde, Tracing, Borsh, CrossTownBus
