@@ -9,7 +9,7 @@ Technologies used: Rust, Actix Web, Serde, Tracing, Borsh, CrossTownBus
 
 ### RabbitMq on Podman
 
-- Run Postgres on Container
+- Run RabbitMq on Container
 
 `podman run -d --hostname localhost --name local-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management`
 
